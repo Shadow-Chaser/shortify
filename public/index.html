@@ -78,7 +78,7 @@
 
     const handleFullURL = () => {
         const shortURL = document.getElementById('shortURLInput').value;
-        const API = 'http://localhost:8080/'
+        const API = 'https://shortify-4nus.onrender.com/'
         fetch(`${API}fullURL`, {
             method: "POST",
             body: JSON.stringify({ shortURL }),
